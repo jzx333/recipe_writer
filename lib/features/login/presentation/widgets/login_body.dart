@@ -51,7 +51,7 @@ class _LoginBodyState extends State<LoginBody> {
             spacing: 16,
             children: [
               Text(
-                'Авторизация администратора',
+                'Введите данные',
                 style: theme.textTheme.displayLarge,
               ),
               TextField(

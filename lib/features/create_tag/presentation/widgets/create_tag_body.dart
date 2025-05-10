@@ -36,7 +36,7 @@ class _CreateTagBodyState extends State<CreateTagBody> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Создайте тэг",
+                "Создайте тег",
                 style: theme.textTheme.displayLarge,
               ),
               SizedBox(height: 16),
@@ -59,7 +59,7 @@ class _CreateTagBodyState extends State<CreateTagBody> {
                 onTap: () {
                   _createTag(context);
                 },
-                text: "Создать тэг",
+                text: "Создать тег",
               )
             ],
           ),

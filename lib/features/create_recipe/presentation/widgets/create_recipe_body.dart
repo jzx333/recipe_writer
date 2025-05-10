@@ -121,7 +121,7 @@ class _CreateRecipeBodyState extends State<CreateRecipeBody> {
                   hintText: "400",
                 ),
                 SizedBox(height: 16),
-                Text("Список тэгов", style: theme.textTheme.bodyLarge),
+                Text("Список тегов", style: theme.textTheme.bodyLarge),
                 SizedBox(height: 4),
                 TagList(tags: [
                   TagEntity(id: 0, name: "name", emoji: "a"),
